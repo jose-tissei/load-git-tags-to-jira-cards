@@ -14,7 +14,7 @@
     'use strict';
 
     $(document).ready(function(){
-debugger;
+
         if(!Cookies.get('gitlab-token')){
             var token = prompt('informe seu token do gitlab');
             Cookies.set('gitlab-token', token)
