@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Load gitlab tags to jira cards
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      1.0
 // @author       José Tissei <z.94@live.com>
-// @match        https://jira.hbsis.com.br/secure/RapidBoard.jspa?rapidView=*
+// @match        https://jira.hbsis.com.br/secure/RapidBoard.jspa*
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
 // @require https://code.jquery.com/jquery-2.1.4.min.js
